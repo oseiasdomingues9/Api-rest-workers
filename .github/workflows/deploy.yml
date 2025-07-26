@@ -1,15 +1,14 @@
-name: Print Tag on Push
+name: Print Tag on Release
 
 on:
-  push:
-    tags:
-      - 'v*.*.*'
+  release:
+    types: [published]
 
 jobs:
-  print-tag:
+  print-release-tag:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print tag name
+      - name: Print tag from release
         run: | 
-          echo "🚀 Tag recebida: ${{ github.ref_name }}"
+          echo "📦 Release publicado com tag: ${{ github.event.release.tag_name }}"
