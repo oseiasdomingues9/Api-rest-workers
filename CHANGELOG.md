@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/oseiasdomingues9/Api-rest-workers/compare/v1.1.0...v1.2.0) (2025-07-26)
+
+
+### Features
+
+* new pipeline ([ec0185b](https://github.com/oseiasdomingues9/Api-rest-workers/commit/ec0185baebf57d2f236eecd2534eb69d7fade1ac))
+
 ## [1.1.0](https://github.com/oseiasdomingues9/Api-rest-workers/compare/v1.0.0...v1.1.0) (2025-07-26)
 
 
