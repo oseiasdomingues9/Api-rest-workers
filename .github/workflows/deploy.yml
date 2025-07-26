@@ -1,0 +1,15 @@
+name: Print Tag on Push
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  print-tag:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print tag name
+        run: | 
+          echo "🚀 Tag recebida: ${{ github.ref_name }}"
