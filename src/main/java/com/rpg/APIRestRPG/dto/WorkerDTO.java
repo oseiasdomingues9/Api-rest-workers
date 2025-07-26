@@ -18,6 +18,7 @@ public class WorkerDTO implements Serializable {
 
     private String name;
     private Integer age;
+    private Integer test01;
     @ManyToOne
     private Company company;
 
