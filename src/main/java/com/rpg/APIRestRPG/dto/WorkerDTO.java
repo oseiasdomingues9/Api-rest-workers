@@ -17,8 +17,8 @@ public class WorkerDTO implements Serializable {
     private static final long serialVersionUID = 3840841225884920061L;
 
     private String name;
+    private String fullName;
     private Integer age;
-    private Integer test01;
     @ManyToOne
     private Company company;
 
